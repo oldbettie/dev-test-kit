@@ -2,35 +2,53 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Install the packages
+`npm i`
 
+copy the `.env.example` into a new file called `.env.local`
+
+run the server
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Dev Test Project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project has been created to estimate a developers understanding of some everyday coding concepts. This is not a test of what you have memorised, or 
+the latest and greatest algorithm challenges from Leetcode. Instead it is designed for us to see how you might work and the steps you take to solve everyday
+problems.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+I am intentionally vague here and some things might slip you up. Feel free to ask questions.
 
-## Learn More
+You will not be judged on styling or even the final visible product. We are looking at your process, how you navigate code and the documentation and time to iterate.
 
-To learn more about Next.js, take a look at the following resources:
+## Assumptions & Definitions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+All tasks should follow industry standards for security, REST, SEO, mobile first, accessibility.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+We use the following and if you are interviewing for this role we assume you have experience in at least some of these technologies. 
+- Next.js 14 (App router)
+- React
+- Tailwind CSS
+- Supabase
+- AWS
+- SST
 
-## Deploy on Vercel
+We also use a few other technologies and languages for different services.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Front End
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You have just joined the Pokemon web team, here is your first ticket!!
+
+A private security analyst the company has used in the past has submitted a bug bounty, they have pointed out we are leaking super secret company data to users. Pokemon has not paid
+the $10,000,0000,000 bounty the analyst is asking but the team would like an engineer to look into the leak as he has been a trusted source in the past. 
+
+You also notice when you get everything running there is other issues. There isn't even anything displayed on the page!!
+
+Here are the docs to your super secret API https://pokeapi.co/docs/v2
+
+While the main task is securing the data. you should also correct any mistakes you find along the way.
+
+It would also be nice if we could add some sort options maybe people want the pokemon sorted by there number or in alphabetical order
+
+Finally you also realise there is no page for each specific pokemon. You should create this page and display some basic data about each pokemon
