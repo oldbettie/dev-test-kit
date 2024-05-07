@@ -41,13 +41,13 @@ We also use a few other technologies and languages for different services.
 You have just joined the Pokemon web team, here is your first ticket!!
 
 A private security analyst the company has used in the past has submitted a bug bounty, they have pointed out we are leaking super secret company data to users. Pokemon has not paid
-the $10,000,0000,000 bounty the analyst is asking but the team would like an engineer to look into the leak as he has been a trusted source in the past. 
+the $10,000,000,000 bounty the analyst is asking but the team would like an engineer to look into the leak as he has been a trusted source in the past. 
 
-You also notice when you get everything running there is other issues. There isn't even anything displayed on the page!!
+You also notice when you get everything running there are a few other issues. There isn't even anything displayed on the page!!
 
 Here are the docs to your super secret API https://pokeapi.co/docs/v2
 
-While the main task is securing the data. you should also correct any mistakes you find along the way.
+While the main task is securing the data, you should also correct any mistakes you find along the way.
 
 It would also be nice if we could add some sort options maybe people want the pokemon sorted by there number or in alphabetical order
 
